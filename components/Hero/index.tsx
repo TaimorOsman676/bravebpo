@@ -27,7 +27,7 @@ const Hero = () => {
           className="wow fadeInUp mx-auto max-w-[800px] text-center"
           data-wow-delay=".2s"
         >
-          <h1 className="mb-5 text-3xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
+          <h1 className="mb-5 text-3xl to-pink-500  bg-clip-text mb-6 md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
             Smart Teams Brave Decisions Better Business
           </h1>
           <p className="mb-12 text-base !leading-relaxed text-gray-300 sm:text-lg md:text-xl">

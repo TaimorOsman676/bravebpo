@@ -21,6 +21,9 @@ export default function ResourceAugmentation() {
       {/* Hero Section - Balanced Single Column */}
       <section className="relative pt-32 pb-20 px-6">
         <div className="container mx-auto text-center">
+          
+<h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
+Solutions That Drive Success        </h2>
           <h1 className="text-4xl md:text-5xl mb-6 font-weight-600 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
             Explore Brave BPO Services
           </h1>

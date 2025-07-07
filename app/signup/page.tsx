@@ -176,12 +176,17 @@ const SignupPage = () => {
                     </button>
                   </div>
                 </form>
-                <p className="text-center text-base font-medium text-body-color">
-                  Already using Startup?{" "}
-                  <Link href="/signin" className="text-primary hover:underline">
-                    Sign in
-                  </Link>
-                </p>
+              <p className="text-center text-base font-medium text-body-color">
+  {" "}
+  <a
+    href="https://frontend.bravebposubs.com/"
+    className="text-primary hover:underline"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Sign in
+  </a>
+</p>
               </div>
             </div>
           </div>

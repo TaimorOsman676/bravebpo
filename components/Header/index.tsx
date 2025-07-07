@@ -108,12 +108,17 @@ const Header = () => {
 
         {/* Right Side Buttons */}
         <div className="hidden md:flex items-center gap-4">
-          <Link
-            href="/signin"
-            className="text-white hover:text-cyan-400 transition"
-          >
-            Sign In
-          </Link>
+       <p className="text-center text-base font-medium text-body-color">
+  {" "}
+  <a
+    href="https://frontend.bravebposubs.com/"
+    className="text-primary hover:underline"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Sign in
+  </a>
+</p>
           <Link
             href="/signup"
             className="px-4 py-2 rounded bg-gradient-to-r from-purple-500 to-cyan-500 text-white hover:opacity-90 transition"
