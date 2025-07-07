@@ -35,7 +35,7 @@ const Footer = () => {
             <div className="mb-12 lg:mb-16">
               <h2 className="mb-10 text-xl font-bold text-black dark:text-white">Useful Links</h2>
               <ul>
-                <li><Link href="/blog" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Blog</Link></li>
+                <li><Link href="/Services" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Our Services</Link></li>
                 <li><Link href="/about" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">About</Link></li>
               </ul>
             </div>
@@ -46,9 +46,9 @@ const Footer = () => {
             <div className="mb-12 lg:mb-16">
               <h2 className="mb-10 text-xl font-bold text-black dark:text-white">Legal</h2>
               <ul>
-                <li><Link href="/terms-and-conditions" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Terms & Conditions</Link></li>
+                <li><Link href="/ResourceAugmentation" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Resource Augmentation</Link></li>
                 <li><Link href="/privacy-policy" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Privacy Policy</Link></li>
-                <li><Link href="/refund-policy" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Refund Policy</Link></li>
+                <li><Link href="/contact" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">contact</Link></li>
               </ul>
             </div>
           </div>

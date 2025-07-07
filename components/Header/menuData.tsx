@@ -7,16 +7,10 @@ const menuData: Menu[] = [
     path: "/",
     newTab: false,
   },
-  {
-    id: 2,
-    title: "About",
-    path: "/about",
-    newTab: false,
-  },
-
+ 
     {
     id: 3,
-    title: "Services",
+    title: "Our Services",
     path: "/Services",
     newTab: false,
   },
@@ -26,22 +20,30 @@ const menuData: Menu[] = [
     path: "/Leadership",
     newTab: false,
   },
-   {
-    id: 3,
-    title: "Contact",
-    path: "/contact",
-    newTab: false,
-  },
-     {
-    id: 3,
-    title: "Careers",
-    path: "/career",
-    newTab: false,
-  },
+ 
+  //    {
+  //   id: 3,
+  //   title: "Careers",
+  //   path: "/career",
+  //   newTab: false,
+  // },
       {
     id: 3,
     title: "Resource Augmentation",
     path: "/ResourceAugmentation",
+    newTab: false,
+  },
+ {
+    id: 2,
+    title: "About Us",
+    path: "/about",
+    newTab: false,
+  },
+
+    {
+    id: 3,
+    title: "Contact",
+    path: "/contact",
     newTab: false,
   },
 ];
