@@ -130,13 +130,12 @@ const Leadership = () => {
     
     <section id="leadership" className="pt-16 md:pt-20 lg:pt-28 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white">
       <div className="container">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <SectionTitle
-            title="Meet Our Leadership "
-            paragraph="The strength of Brave BPO lies in its people. Meet the incredible team driving our mission, vision, and success."
-            mb="44px"
-          />
-        </div>
+   <SectionTitle
+  title="Meet Our Leadership"
+  paragraph="The strength of Brave BPO lies in its people. Meet the incredible team driving our mission, vision, and success."
+  mb="44px"
+/>
+
 
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
           {teamMembers.map((member, index) => (
@@ -152,7 +151,8 @@ const Leadership = () => {
                   className="object-cover transition-transform duration-300 group-hover:scale-105"  
                 />
               </div>
-              <h3 className="text-lg font-semibold text-dark dark:text-white text-center">
+              <h3 className="to-pink-500 bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent
+">
                 {member.name}
               </h3>
               <p className="text-sm text-body-color dark:text-gray-400 text-center mt-1">

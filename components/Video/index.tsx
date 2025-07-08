@@ -19,7 +19,7 @@ const Video = () => {
         />
 
         <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4">
+          <div className="w-full px-1">
             <div
               className="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md shadow-lg"
               data-wow-delay=".15s"

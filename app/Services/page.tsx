@@ -126,15 +126,14 @@ const OurServicesSection = () => {
     <>
      <section className="py-28 px-6 bg-gradient-to-br from-[#0d0c20] via-[#1a002c] to-[#0d0c20] text-white font-sans">
       <div className="max-w-6xl mx-auto text-center">
-             <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
-Solutions That Drive Success        </h2>
+         
         <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto">
           Brave BPO brings together smart strategy, technology, and human skill to help you scale, serve, and succeed — across all verticals.
         </p>
 
 
         <div className="mt-20 text-left max-w-4xl mx-auto">
-          <h3 className="text-3xl font-bold mb-4">How We Work</h3>
+          <h3 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">How We Work</h3>
           <ul className="list-disc list-inside text-gray-300 space-y-2">
             <li><strong>Business Analysis:</strong> Understanding your workflow and pain points.</li>
             <li><strong>Talent Acquisition & Training:</strong> Hiring experts aligned with your vision.</li>
@@ -143,7 +142,7 @@ Solutions That Drive Success        </h2>
             <li><strong>Scalable Delivery:</strong> Flexible teams that grow as your business evolves.</li>
           </ul>
 
-          <h3 className="text-3xl font-bold mt-12 mb-4">Virtual Staffing Services</h3>
+          <h3 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Virtual Staffing Services</h3>
           <p className="text-gray-300 mb-6">
             Looking for skilled remote professionals? Brave BPO connects you with global talent in areas like admin support, digital marketing, customer service, and more—helping you scale quickly and affordably.
           </p>
@@ -159,7 +158,7 @@ Solutions That Drive Success        </h2>
      <section className="py-28 px-6 bg-gradient-to-tr from-[#1a002c] via-[#0d0c20] to-[#1a002c] text-white font-sans">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl  mb-4 text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
+          <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
             Unlocking Potential Through Smart BPO Services
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
@@ -169,22 +168,22 @@ Solutions That Drive Success        </h2>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
           <div className="p-8 rounded-2xl border border-white/10 bg-white/5">
-            <h4 className="text-xl font-semibold mb-2 text-white">Innovation-Driven</h4>
+            <h4 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Innovation-Driven</h4>
             <p className="text-gray-300">We deploy cutting-edge tools and creative strategies to drive value.</p>
           </div>
 
           <div className="p-8 rounded-2xl border border-white/10 bg-white/5">
-            <h4 className="text-xl font-semibold mb-2 text-white">Quality Excellence</h4>
+            <h4 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Quality Excellence</h4>
             <p className="text-gray-300">Each process is optimized for performance and customer satisfaction.</p>
           </div>
 
           <div className="p-8 rounded-2xl border border-white/10 bg-white/5">
-            <h4 className="text-xl font-semibold mb-2 text-white">Custom Solutions</h4>
+            <h4 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Custom Solutions</h4>
             <p className="text-gray-300">Tailored workflows that adapt to your business and goals.</p>
           </div>
 
           <div className="p-8 rounded-2xl border border-white/10 bg-white/5">
-            <h4 className="text-xl font-semibold mb-2 text-white">Integrated Support</h4>
+            <h4 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Integrated Support</h4>
             <p className="text-gray-300">From frontend to backend, we ensure every touchpoint works in sync.</p>
           </div>
         </div>
@@ -192,7 +191,7 @@ Solutions That Drive Success        </h2>
     </section>
     <section className="py-28 px-5 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white font-sans">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
+        <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
           Our Core Services
         </h2>
         <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto">
@@ -206,7 +205,7 @@ Solutions That Drive Success        </h2>
               className="bg-white/5 backdrop-blur-md border border-white/10 p-6 rounded-2xl hover:shadow-xl transition-all duration-300 text-left"
             >
               <div className="flex justify-center mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold mb-1 text-white">
+              <h3 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
                 {service.title}
               </h3>
               {service.subheading && (
@@ -220,9 +219,9 @@ Solutions That Drive Success        </h2>
         </div>
       </div>
     </section>
-     <section className="py-28 px-6 bg-gradient-to-br from-[#0c001d] via-[#14002b] to-[#0c001d] text-white font-sans">
+     <section className="py-28 px-6 bg-gradient-to-br from-[#0c001d] via-[#14002b] to-[#0c001d]  font-sans">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl  mb-6 text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
+        <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
           Need Drive Engagement, Increase Visibility, and Maximize ROI?
         </h2>
         <p className="text-lg text-gray-300 mb-10 max-w-3xl mx-auto">
@@ -232,37 +231,37 @@ Solutions That Drive Success        </h2>
         <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3 text-left">
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
             <FaSearch className="text-3xl text-primary mb-4" />
-            <h4 className="text-xl font-semibold mb-2 text-white">Search Engine Optimization</h4>
+            <h4 className="text-xl font-semibold mb-2 ">Search Engine Optimization</h4>
             <p className="text-gray-300">Improve search rankings, drive organic traffic, and boost brand credibility.</p>
           </div>
 
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
             <FaMousePointer className="text-3xl text-primary mb-4" />
-            <h4 className="text-xl font-semibold mb-2 text-white">Pay-Per-Click Advertising</h4>
+            <h4 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Pay-Per-Click Advertising</h4>
             <p className="text-gray-300">Maximize ROI with highly targeted paid campaigns that convert.</p>
           </div>
 
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
             <FaEnvelopeOpenText className="text-3xl text-primary mb-4" />
-            <h4 className="text-xl font-semibold mb-2 text-white">Email Marketing</h4>
+            <h4 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Email Marketing</h4>
             <p className="text-gray-300">Drive retention and engagement with personalized email campaigns.</p>
           </div>
 
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
             <FaPenNib className="text-3xl text-primary mb-4" />
-            <h4 className="text-xl font-semibold mb-2 text-white">Content Marketing</h4>
+            <h4 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Content Marketing</h4>
             <p className="text-gray-300">Create compelling, SEO-optimized content that educates and converts.</p>
           </div>
 
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
             <FaChartPie className="text-3xl text-primary mb-4" />
-            <h4 className="text-xl font-semibold mb-2 text-white">Market Analysis</h4>
+            <h4 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Market Analysis</h4>
             <p className="text-gray-300">Gain insights and make data-driven decisions for smarter marketing.</p>
           </div>
         </div>
 
         <div className="mt-20 text-left max-w-4xl mx-auto">
-          <h3 className="text-3xl font-bold mb-4">How We Work</h3>
+          <h3 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">How We Work</h3>
           <ul className="list-disc list-inside text-gray-300 space-y-2">
             <li><strong>Strategic Planning:</strong> Customized strategies aligned to your goals.</li>
             <li><strong>Campaign Execution:</strong> SEO, PPC, content & social media deployment.</li>

@@ -294,11 +294,13 @@ Contact Us             </a>
     </svg>
   </div>
 </section>
-      <section className="py-20 px-6 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white">
+      {/* <section className="py-20   ">
   <div className="max-w-7xl mx-auto text-center">
-    <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white mb-6">
-      Why Choose Brave BPO?
-    </h2>
+   
+
+    <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
+Why Choose Brave BPO? </h2>
+
     <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-16">
       We’re not just a BPO — we’re your strategic growth partner. From tech-powered solutions to elite customer support, Brave BPO is built for bold brands.
     </p>
@@ -334,7 +336,7 @@ Contact Us             </a>
           key={title}
           className="bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 rounded-xl p-6 shadow-md hover:shadow-xl transition"
         >
-          <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+          <h3 className="text-1xl md:text-3xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
             {title}
           </h3>
           <p className="text-gray-600 dark:text-gray-300">{desc}</p>
@@ -342,19 +344,20 @@ Contact Us             </a>
       ))}
     </div>
   </div>
-</section>
-<section className="relative py-24 px-6 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white">
+</section> */}
+<section className="relative py-24 px-6 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a]">
   {/* Background Glow Effects */}
   <div className="absolute -top-20 -left-20 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl animate-pulse" />
   <div className="absolute bottom-0 right-0 w-64 h-64 bg-purple-400/20 rounded-full blur-2xl animate-bounce" />
 
   <div className="relative z-10 max-w-6xl mx-auto text-center">
-    <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Build a Future with Brave BPO</h2>
+    <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Build a Future with Brave BPO</h2>
+
     <p className="text-lg text-white/70 mb-12 max-w-2xl mx-auto">
       We're more than just a workplace — we’re a launchpad for your career. Join a team that supports growth, rewards effort, and values every voice.
     </p>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-left to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent">
       {[
         {
           icon: "📘",
@@ -389,10 +392,10 @@ Contact Us             </a>
       ].map(({ icon, title, desc }) => (
         <div
           key={title}
-          className="bg-white/5 border border-white/10 rounded-xl p-6 backdrop-blur-md shadow-md hover:shadow-xl transition duration-300"
+          className=" to-pink-300  bg-clip-text mb-6 bg-gradient-to-r from-purple-300 to-cyan-300 text-transparent bg-clip-text"
         >
-          <div className="text-4xl mb-3">{icon}</div>
-          <h3 className="text-xl font-semibold mb-2">{title}</h3>
+          <div className="text-3xl mb-3">{icon}</div>
+          <h3 className="mb-5 text-3xl to-pink-500  bg-clip-text mb-6 md:text-3xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">{title}</h3>
           <p className="text-white/70">{desc}</p>
         </div>
       ))}
@@ -401,15 +404,15 @@ Contact Us             </a>
 </section>
 
 
-<section className="relative  py-20 px-6 text-white overflow-hidden bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white">
+<section className="relative  py-20 px-6  overflow-hidden bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a]">
   {/* Soft floating glow shapes */}
   <div className="absolute -top-20 -left-20 w-[300px] h-[300px] bg-blue-500/20 rounded-full blur-3xl animate-float z-0"></div>
   <div className="absolute bottom-0 right-0 w-[250px] h-[250px] bg-emerald-400/10 rounded-full blur-2xl animate-pulse-slow z-0"></div>
 
   <div className="max-w-6xl mx-auto relative z-10">
-    <h2 className="text-4xl font-extrabold text-center mb-12">Why Brave BPO Stands Apart</h2>
+    <h2 className="text-4xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Why Brave BPO Stands Apart</h2>
 
-    <div className="grid gap-10 md:grid-cols-2">
+    <div className="grid gap-10 md:grid-cols-2 ">
       {[
         {
           icon: "🌎",
@@ -439,7 +442,7 @@ Contact Us             </a>
           <div className="mb-4 flex items-center justify-center w-14 h-14 text-2xl bg-white/10 rounded-full">
             {icon}
           </div>
-          <h3 className="text-xl font-semibold mb-2">{title}</h3>
+          <h3 className="text-1xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">{title}</h3>
           <p className="text-white/80">{desc}</p>
         </div>
       ))}
