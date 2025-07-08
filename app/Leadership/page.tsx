@@ -63,8 +63,8 @@ const teamMembers = [
     image: "/images/Team/rehman-khan.png",
   },
   {
-    name: "Mr. Maqsood",
-    title: "Director Of Operations",
+    name: "Mr. Faraz",
+    title: "Director. Business Development",
     image: "/images/Team/maqsood.jpg",
   },
   {

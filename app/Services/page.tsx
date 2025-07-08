@@ -189,7 +189,7 @@ const OurServicesSection = () => {
         </div>
       </div>
     </section>
-    <section className="py-28 px-5 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white font-sans">
+    <section className="py-28 px-5 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] font-sans">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
           Our Core Services
