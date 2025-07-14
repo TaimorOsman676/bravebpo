@@ -14,7 +14,7 @@ const Hero = () => {
   muted
   loop
   className="w-full h-full object-cover"
-  src="/images/hero/home-vide.mp4" // Relative path to public/images/hero/home-video.mp4
+  src="/images/hero/her.png" // Relative path to public/images/hero/home-video.mp4
 >
   Your browser does not support the video tag.
 </video>
@@ -34,20 +34,7 @@ const Hero = () => {
             We deliver elite BPO services that scale your growth, cut costs, and enhance performance.
             Partner with Brave — where fearless people create fearless results.
           </p>
-          <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-            <a
-              href="/contact"
-              className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-            >
-Contact Us             </a>
-            <a
-              href="/about"
-
-              className="rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90"
-            >
-              About Us 
-            </a>
-          </div>
+         
         </div>
       </div>
     </div>
@@ -294,7 +281,7 @@ Contact Us             </a>
     </svg>
   </div>
 </section>
-      {/* <section className="py-20   ">
+      <section className="py-20   ">
   <div className="max-w-7xl mx-auto text-center">
    
 
@@ -344,7 +331,7 @@ Why Choose Brave BPO? </h2>
       ))}
     </div>
   </div>
-</section> */}
+</section>
 <section className="relative py-24 px-6 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a]">
   {/* Background Glow Effects */}
   <div className="absolute -top-20 -left-20 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl animate-pulse" />

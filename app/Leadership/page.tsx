@@ -28,7 +28,7 @@ const teamMembers = [
   },
   {
     name: "Mr. Mashal Khan Sadri",
-    title: "Project Manager – Brave BPO 1.0",
+    title: "Operational Manager | Brave BPO 1.0",
     image: "/images/Team/mashal-khan.png",
   },
   {

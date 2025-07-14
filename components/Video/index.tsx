@@ -9,14 +9,10 @@ const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10">
+    <section className="relative z-10 ">
       <div className="container">
-        <SectionTitle
-          title="Brave BPO for a Greener Tomorrow"
-          paragraph="We’re committed to sustainability — from our energy-efficient infrastructure to digital-first operations that reduce environmental impact."
-          center
-          mb="80px"
-        />
+      <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text text-center  mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
+Brave BPO for a Greener Tomorrow </h2>
 
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-1">

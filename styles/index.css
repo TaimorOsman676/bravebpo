@@ -31,3 +31,85 @@
     @apply opacity-100;
   }
 }
+
+/* Animations must go outside of @layer components */
+@layer utilities {
+  @keyframes fade-in-video {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes slide-in-left {
+    from { opacity: 0; transform: translateX(-30px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes slide-in-right {
+    from { opacity: 0; transform: translateX(30px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes text-shine {
+    0% { background-position: -200px 0; }
+    100% { background-position: 200px 0; }
+  }
+  @keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes draw-flow {
+    from { stroke-dashoffset: 1200; }
+    to { stroke-dashoffset: 0; }
+  }
+  @keyframes pulse-gentle {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+  }
+  @keyframes glow-pulse {
+    0%, 100% { box-shadow: 0 0 15px #00ffcc; }
+    50% { box-shadow: 0 0 30px #ff4500; }
+  }
+  @keyframes rotate-soft {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  .animate-fade-in-video {
+    animation: fade-in-video 2s ease-in-out;
+  }
+  .animate-slide-in-left {
+    animation: slide-in-left 1.8s ease-out;
+  }
+  .animate-slide-in-right {
+    animation: slide-in-right 1.8s ease-out;
+  }
+  .animate-text-shine {
+    animation: text-shine 3s linear infinite;
+    background-size: 200% 100%;
+  }
+  .animate-fade-in-up {
+    animation: fade-in-up 1.5s ease-out;
+  }
+  .animate-draw-flow {
+    animation: draw-flow 4s ease-out forwards;
+  }
+  .animate-pulse-gentle {
+    animation: pulse-gentle 3s ease-in-out infinite;
+  }
+  .animate-glow-pulse {
+    animation: glow-pulse 5s ease-in-out infinite;
+  }
+  .animate-rotate-soft {
+    animation: rotate-soft 25s linear infinite;
+  }
+}
+
+/* Responsive Fixes - can be left as raw CSS or inside layer if needed */
+@media (max-width: 1024px) {
+  .lg\:flex-row {
+    flex-direction: column;
+  }
+  .lg\:w-1\/2 {
+    width: 100%;
+  }
+  .max-w-\[450px\] {
+    max-width: 100%;
+  }
+}
