@@ -23,12 +23,12 @@ const teamMembers = [
   },
   {
     name: "Mr. Muhammad Shahryar",
-    title: "Operational Manager | Brave BPO",
+    title: "Operations Manager | Brave BPO 2.0",
     image: "/images/Team/shahryar.jpg",
   },
   {
     name: "Mr. Mashal Khan Sadri",
-    title: "Operational Manager | Brave BPO 1.0",
+    title: "Operations Manager | Brave BPO 1.0",
     image: "/images/Team/mashal-khan.png",
   },
   {
@@ -36,7 +36,7 @@ const teamMembers = [
     title: "Compliance Manager – Brave BPO 2.0",
     image: "/images/Team/zia-ullah.jpg",
   },
-    {
+  {
     name: "Mr. Muhammad Usman",
     title: "Software Project Manager – Brave BPO",
     image: "/images/Team/muhammad-usman.png",
@@ -126,46 +126,46 @@ const teamMembers = [
 
 const Leadership = () => {
   return (
-<>
-    
-    <section id="leadership" className="pt-16 md:pt-20 lg:pt-28 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white">
-      <div className="container">
-   <SectionTitle
-  title="Meet Our Leadership"
-  paragraph="The strength of Brave BPO lies in its people. Meet the incredible team driving our mission, vision, and success."
-  mb="44px"
-/>
+    <>
+      <section
+        id="leadership"
+        className="to-[#0b001a] text-white bg-gradient-to-b from-[#0b001a] via-[#14002b] pt-16 md:pt-20 lg:pt-28"
+      >
+        <div className="container">
+          <SectionTitle
+            title="Meet Our Leadership"
+            paragraph="The strength of Brave BPO lies in its people. Meet the incredible team driving our mission, vision, and success."
+            mb="44px"
+          />
 
-
-        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
-          {teamMembers.map((member, index) => (
-            <div
-              key={index}
-              className="group relative overflow-hidden rounded-xl border border-[#87CEEB] bg-white dark:bg-[#17023C] p-5 shadow-md transition-all hover:-translate-y-1 hover:shadow-lg"
-            >
-              <div className="relative h-56 w-full mb-4 rounded-lg overflow-hidden">
-                <Image
-                  src={member.image}
-                  alt={member.name}
-                  fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"  
-                />
+          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
+            {teamMembers.map((member, index) => (
+              <div
+                key={index}
+                className="group relative overflow-hidden rounded-xl border border-[#87CEEB] bg-white p-5 shadow-md transition-all hover:-translate-y-1 hover:shadow-lg dark:bg-[#17023C]"
+              >
+                <div className="relative mb-4 h-56 w-full overflow-hidden rounded-lg">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+                <h3
+                  className="bg-gradient-to-r from-purple-500 to-cyan-500 to-pink-500 bg-clip-text text-transparent
+"
+                >
+                  {member.name}
+                </h3>
+                <p className="mt-1 text-center text-sm text-body-color dark:text-gray-400">
+                  {member.title}
+                </p>
               </div>
-              <h3 className="to-pink-500 bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent
-">
-                {member.name}
-              </h3>
-              <p className="text-sm text-body-color dark:text-gray-400 text-center mt-1">
-                {member.title}
-              </p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
-
-
-    
+      </section>
     </>
   );
 };
