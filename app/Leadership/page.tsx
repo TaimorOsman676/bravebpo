@@ -41,16 +41,22 @@ const teamMembers = [
     title: "Software Project Manager – Brave BPO",
     image: "/images/Team/muhammad-usman.png",
   },
+   {
+    name: "Mr. Taimor Osman Khan",
+    title: "Web and Digital Media Manager – Brave BPO",
+    image: "/images/Team/taimor-osman.jpg",
+  },
   {
     name: "Ms. Sumbal Shahid",
     title: "Finance Manager – Brave BPO 2.0",
     image: "/images/Team/sumbal-shahid.jpg",
   },
-  {
-    name: "Mr. Taimor Osman Khan",
-    title: "Web and Digital Media Manager – Brave BPO",
-    image: "/images/Team/taimor-osman.jpg",
+   {
+    name: "Ms. Neha Zaheer",
+    title: "Front Desk Officer – Brave BPO 2.0",
+    image: "/images/Team/neha-zaheer.jpg",
   },
+ 
   {
     name: "Mr. Zaman Khan",
     title: "QA Manager – Brave BPO",
@@ -102,11 +108,7 @@ const teamMembers = [
     title: "Digital Media Specialist – Brave BPO",
     image: "/images/Team/umer-bin-tariq.jpg",
   },
-  {
-    name: "Ms. Neha Zaheer",
-    title: "Front Desk Officer – Brave BPO 2.0",
-    image: "/images/Team/neha-zaheer.jpg",
-  },
+ 
   {
     name: "Mr. Ali Asghar",
     title: "IT Support – Brave BPO 1.0",
