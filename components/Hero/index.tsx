@@ -45,57 +45,7 @@ const Hero = () => {
   </div>
 </section>
 
-      <section className="py-20   ">
-  <div className="max-w-7xl mx-auto text-center">
-   
-
-    <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
-Why Choose Brave BPO? </h2>
-
-    <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-16">
-      We’re not just a BPO — we’re your strategic growth partner. From tech-powered solutions to elite customer support, Brave BPO is built for bold brands.
-    </p>
-
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-left">
-      {[
-        {
-          title: '🌎 24/7 Global Support',
-          desc: 'We operate across time zones to ensure your customers always have someone to talk to — day or night.',
-        },
-        {
-          title: '⚡ Tech-Enabled Efficiency',
-          desc: 'From AI to automation, we use modern tools to maximize speed, accuracy, and results.',
-        },
-        {
-          title: '🧠 Skilled Talent Pool',
-          desc: 'Our teams are trained to deliver premium experiences — from customer service to backend operations.',
-        },
-        {
-          title: '📈 Scalable Growth',
-          desc: 'Easily scale up your support and processes without increasing overheads or losing quality.',
-        },
-        {
-          title: '🔒 Enterprise Security',
-          desc: 'Your data is safe. We follow global security protocols and industry best practices.',
-        },
-        {
-          title: '🤝 Real Partnerships',
-          desc: 'We believe in long-term partnerships, not transactions. Your success is our success.',
-        },
-      ].map(({ title, desc }) => (
-        <div
-          key={title}
-          className="bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 rounded-xl p-6 shadow-md hover:shadow-xl transition"
-        >
-          <h3 className="text-1xl md:text-3xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
-            {title}
-          </h3>
-          <p className="text-gray-600 dark:text-gray-300">{desc}</p>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
+  
 <section className="relative py-24 px-6 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a]">
   {/* Background Glow Effects */}
   <div className="absolute -top-20 -left-20 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl animate-pulse" />
@@ -153,7 +103,57 @@ Why Choose Brave BPO? </h2>
     </div>
   </div>
 </section>
+    <section className="py-20  bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] ">
+  <div className="max-w-7xl mx-auto text-center ">
+    
 
+    <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
+Why Choose Brave BPO? </h2>
+
+    <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-16">
+      We’re not just a BPO — we’re your strategic growth partner. From tech-powered solutions to elite customer support, Brave BPO is built for bold brands.
+    </p>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-left">
+      {[
+        {
+          title: '🌎 24/7 Global Support',
+          desc: 'We operate across time zones to ensure your customers always have someone to talk to — day or night.',
+        },
+        {
+          title: '⚡ Tech-Enabled Efficiency',
+          desc: 'From AI to automation, we use modern tools to maximize speed, accuracy, and results.',
+        },
+        {
+          title: '🧠 Skilled Talent Pool',
+          desc: 'Our teams are trained to deliver premium experiences — from customer service to backend operations.',
+        },
+        {
+          title: '📈 Scalable Growth',
+          desc: 'Easily scale up your support and processes without increasing overheads or losing quality.',
+        },
+        {
+          title: '🔒 Enterprise Security',
+          desc: 'Your data is safe. We follow global security protocols and industry best practices.',
+        },
+        {
+          title: '🤝 Real Partnerships',
+          desc: 'We believe in long-term partnerships, not transactions. Your success is our success.',
+        },
+      ].map(({ title, desc }) => (
+        <div
+          key={title}
+          className="bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 rounded-xl p-6 shadow-md hover:shadow-xl transition"
+        >
+          <h3 className="text-1xl md:text-3xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
+            {title}
+          </h3>
+          <p className="text-gray-600 dark:text-gray-300">{desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
 <section className="relative  py-20 px-6  overflow-hidden bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a]">
   {/* Soft floating glow shapes */}

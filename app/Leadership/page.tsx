@@ -151,7 +151,7 @@ const Leadership = () => {
                     src={member.image}
                     alt={member.name}
                     fill
-                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    className="object-cover transition-transform duration-300 group-hover:scale-105 "
                   />
                 </div>
                 <h3
