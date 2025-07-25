@@ -23,13 +23,13 @@ const teamMembers = [
   },
   {
     name: "Mr. Muhammad Shahryar",
-    title: "Operations Manager | Brave BPO 2.0",
+    title: "Operations Manager | Brave BPO 1.0",
     image: "/images/Team/shahryar.jpg",
   },
   {
     name: "Mr. Mashal Khan Sadri",
-    title: "Operations Manager | Brave BPO 1.0",
-    image: "/images/Team/mashal-khan.png",
+    title: "Operations Manager | Brave BPO 2.0",
+    image: "/images/Team/mashal-khan.jpg",
   },
   {
     name: "Mr. Zia Ullah Khan",
