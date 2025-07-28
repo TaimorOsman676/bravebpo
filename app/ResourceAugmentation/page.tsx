@@ -199,8 +199,8 @@ export default function ResourceAugmentation() {
       <footer className="bg-[#0b001a] py-8 px-6 text-center">
         <p className="text-gray-400">© 2025 Brave BPO. All Rights Reserved.</p>
         <div className="mt-3 space-x-4">
-          <Link href="/privacy" className="text-gray-400 hover:text-cyan-300">Privacy Policy</Link>
-          <Link href="/terms" className="text-gray-400 hover:text-cyan-300">Terms of Service</Link>
+          <Link href="/PrivacyPolicy" className="text-gray-400 hover:text-cyan-300">Privacy Policy</Link>
+          <Link href="/TermsAndConditions" className="text-gray-400 hover:text-cyan-300">Terms of Service</Link>
         </div>
       </footer>
 

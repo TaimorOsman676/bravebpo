@@ -47,8 +47,7 @@ const Footer = () => {
               <h2 className="mb-10 text-xl font-bold text-black dark:text-white">Legal</h2>
               <ul>
                 <li><Link href="/ResourceAugmentation" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Resource Augmentation</Link></li>
-                <li><Link href="/privacy-policy" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Privacy Policy</Link></li>
-                <li><Link href="/contact" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">contact</Link></li>
+                <li><Link href="/PrivacyPolicy" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Privacy Policy</Link></li>
               </ul>
             </div>
           </div>
@@ -59,8 +58,6 @@ const Footer = () => {
               <h2 className="mb-10 text-xl font-bold text-black dark:text-white">Support</h2>
               <ul>
                 <li><Link href="/contact" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Contact Support</Link></li>
-                <li><Link href="/terms-and-conditions" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Terms of Use</Link></li>
-                <li><Link href="/about" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">About</Link></li>
               </ul>
             </div>
           </div>
