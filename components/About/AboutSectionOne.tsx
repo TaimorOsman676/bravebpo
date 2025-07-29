@@ -119,8 +119,8 @@ const OurServicesSection = () => {
           <div className="grid md:grid-cols-2 items-center gap-10">
             <div className="overflow-hidden rounded-3xl border-4 border-primary shadow-xl">
               <Image
-src="/images/Team/imran-khan.jpg"                
-alt="CEO Image"
+                src="/images/Team/imran-khans.jpg"
+                alt="CEO Image"
                 width={600}
                 height={500}
                 className="object-cover w-full h-full"

@@ -124,37 +124,54 @@ const OurServicesSection = () => {
 
   return (
     <>
-     <section className="py-28 px-6 bg-gradient-to-br from-[#0d0c20] via-[#1a002c] to-[#0d0c20] text-white font-sans">
-      <div className="max-w-6xl mx-auto text-center">
-         
-        <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto">
-          Brave BPO brings together smart strategy, technology, and human skill to help you scale, serve, and succeed — across all verticals.
+    <section className="py-28 px-6 bg-gradient-to-br from-[#0d0c20] via-[#1a002c] to-[#0d0c20] text-white font-sans">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+    
+    {/* Left Text Content */}
+    <div className="w-full md:w-1/2">
+      <p className="text-lg text-gray-300 mb-12 max-w-3xl">
+        Brave BPO brings together smart strategy, technology, and human skill to help you scale, serve, and succeed — across all verticals.
+      </p>
+
+      <div className="text-left">
+        <h3 className="text-4xl md:text-5xl bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text mb-6">
+          How We Work
+        </h3>
+        <ul className="list-disc list-inside text-gray-300 space-y-2 mb-10">
+          <li><strong>Business Analysis:</strong> Understanding your workflow and pain points.</li>
+          <li><strong>Talent Acquisition & Training:</strong> Hiring experts aligned with your vision.</li>
+          <li><strong>Seamless Integration:</strong> Smooth deployment with minimal disruption.</li>
+          <li><strong>Performance Monitoring:</strong> Continuous evaluation and enhancement.</li>
+          <li><strong>Scalable Delivery:</strong> Flexible teams that grow as your business evolves.</li>
+        </ul>
+
+        <h3 className="text-4xl md:text-5xl bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text mb-6">
+          Virtual Staffing Services
+        </h3>
+        <p className="text-gray-300 mb-6">
+          Looking for skilled remote professionals? Brave BPO connects you with global talent in areas like admin support, digital marketing, customer service, and more—helping you scale quickly and affordably.
         </p>
-
-
-        <div className="mt-20 text-left max-w-4xl mx-auto">
-          <h3 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">How We Work</h3>
-          <ul className="list-disc list-inside text-gray-300 space-y-2">
-            <li><strong>Business Analysis:</strong> Understanding your workflow and pain points.</li>
-            <li><strong>Talent Acquisition & Training:</strong> Hiring experts aligned with your vision.</li>
-            <li><strong>Seamless Integration:</strong> Smooth deployment with minimal disruption.</li>
-            <li><strong>Performance Monitoring:</strong> Continuous evaluation and enhancement.</li>
-            <li><strong>Scalable Delivery:</strong> Flexible teams that grow as your business evolves.</li>
-          </ul>
-
-          <h3 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Virtual Staffing Services</h3>
-          <p className="text-gray-300 mb-6">
-            Looking for skilled remote professionals? Brave BPO connects you with global talent in areas like admin support, digital marketing, customer service, and more—helping you scale quickly and affordably.
-          </p>
-          <ul className="list-disc list-inside text-gray-300 space-y-2">
-            <li>Flexible engagement models</li>
-            <li>Global talent pool</li>
-            <li>Reduced operational costs</li>
-            <li>Dedicated team management</li>
-          </ul>
-        </div>
+        <ul className="list-disc list-inside text-gray-300 space-y-2">
+          <li>Flexible engagement models</li>
+          <li>Global talent pool</li>
+          <li>Reduced operational costs</li>
+          <li>Dedicated team management</li>
+        </ul>
       </div>
-    </section>
+    </div>
+
+    {/* Right Image */}
+    <div className="w-full md:w-1/2">
+      <img
+        src="/images/Headphone.png" // Replace with your actual image path
+        alt="Brave BPO Team"
+        className="w-full rounded-2xl shadow-lg"
+      />
+    </div>
+
+  </div>
+</section>
+
      <section className="py-28 px-6 bg-gradient-to-tr from-[#1a002c] via-[#0d0c20] to-[#1a002c] text-white font-sans">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">

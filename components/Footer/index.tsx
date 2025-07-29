@@ -18,7 +18,7 @@ const Footer = () => {
                 <Image
                   src="/images/logo/logo.png"
                   alt="logo"
-                  className="w-full dark:hidden"
+                  className="w-full "
                   width={140}
                   height={30}
                 />
