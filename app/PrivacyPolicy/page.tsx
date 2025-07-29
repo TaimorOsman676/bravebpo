@@ -58,8 +58,8 @@ const PrivacyPolicy = () => {
   <a
     href="https://www.bravebpo.com/contact"
     className="text-cyan-400 hover:underline"
-    target="_blank"
-    rel="noopener noreferrer"
+    // target="_blank"
+    // rel="noopener noreferrer"
   >
     Contact Brave BPO
   </a>
