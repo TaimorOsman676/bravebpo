@@ -100,6 +100,7 @@ const OurServicesSection = () => {
             From lead generation and live transfers to customer retention strategies, Brave BPO is committed to shaping success stories for businesses across the globe. Our high-performance culture, combined with ethical practices, ensures long-term partnerships built on trust.
           </p>
           <h4 className="text-2xl text-4xl md:text-5xl mb-6 font-weight-600 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">Key Operational Verticals</h4>
+          
           <ul className="list-disc list-inside text-gray-300 space-y-1">
             <li>Auto & Health Insurance Services</li>
             <li>Mortgage Refinance Campaigns</li>
@@ -127,10 +128,10 @@ const OurServicesSection = () => {
             </div>
             <div>
               <h3 className="text-3xl text-4xl md:text-5xl mb-6 font-weight-600 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
-                <span className="text-sky-400">Imran Khan Sadri</span>{" "}
+                <span className="text-sky-400">Imran Khan Sadri</span>{" "} <br />
                 <span className="text-white dark:text-white text-xl">(CEO Brave BPO)</span>
               </h3>
-              <p className="text-lg text-primary mb-3 group-hover:scale-110 transition-transform">
+              <p className="text-lg    mb-3 group-hover:scale-110 transition-transform">
                 At Brave BPO, we believe that great service begins with people. Over the last two decades, we’ve grown from humble beginnings into a trusted outsourcing partner for clients across the globe. Our success is rooted in authenticity, compassion, and innovation. We take pride in building long-term relationships, nurturing talent, and delivering solutions that truly matter. As CEO, I feel honored to lead a team that is driven by purpose and passion. Together, we are not just supporting businesses—we're shaping a future where collaboration, technology, and human connection redefine what outsourcing means.
               </p>
             </div>

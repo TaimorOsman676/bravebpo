@@ -99,7 +99,7 @@ export default function ResourceAugmentation() {
       {/* Telemarketing Services Section - 2x2 Grid */}
       <section className="py-16 px-6">
         <div className="container mx-auto max-w-7xl">
-          <h2 className="text-4xl md:text-5xl font-weight-600 text-center mb-8 text-white bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text">
+          <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
             Telemarketing Services by Brave BPO
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -140,7 +140,7 @@ export default function ResourceAugmentation() {
       {/* Digital Marketing Services Section - 2x2 Grid */}
       <section className="py-16 px-6 bg-white/10">
         <div className="container mx-auto max-w-7xl">
-          <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text mb-6 font-bold text-center">
+          <h2 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
             Digital Marketing Services by Brave BPO
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
