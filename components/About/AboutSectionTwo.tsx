@@ -26,7 +26,7 @@ const AboutSectionTwo = () => {
             <div className="wow fadeInRight max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h5 className="text-2xl  md:text-3xl mb-6 font-weight-600 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
-                  Empowering Global Brands
+                  Empowering Global Brands?
                 </h5>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                   Brave BPO partners with forward-thinking companies to deliver exceptional call center and back-office services that scale effortlessly across markets.
