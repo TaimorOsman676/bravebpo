@@ -60,7 +60,7 @@ const services = [
 const OurServicesSection = () => {
   return (
     <>
-       <section id="ceo-message" className="py-24 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white">
+       <section id="ceo-message" className="py-24 pt-10 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid md:grid-cols-2 items-center gap-10">
             <div className="overflow-hidden rounded-3xl border-4 border-primary shadow-xl">
