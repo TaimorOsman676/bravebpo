@@ -99,7 +99,7 @@ export default function ResourceAugmentation() {
       {/* Telemarketing Services Section - 2x2 Grid */}
       <section className="py-16 px-6">
         <div className="container mx-auto max-w-7xl">
-          <h2 className="text-4xl md:text-5xl font-weight-600 text-center mb-8 text-white bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text">
+          <h2 className="text-4xl md:text-5xl font-weight-600 text-center mb-8 text-white bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text">
             Telemarketing Services by Brave BPO
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -140,7 +140,7 @@ export default function ResourceAugmentation() {
       {/* Digital Marketing Services Section - 2x2 Grid */}
       <section className="py-16 px-6 bg-white/10">
         <div className="container mx-auto max-w-7xl">
-          <h2 className="text-4xl md:text-5xl font-weight-600 text-center mb-8 text-white bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text">
+          <h2 className="text-4xl md:text-5xl bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text mb-6 font-bold text-center">
             Digital Marketing Services by Brave BPO
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -173,36 +173,10 @@ export default function ResourceAugmentation() {
       </section>
 
       {/* Call to Action Section - Balanced Single Column */}
-      <section className="py-16 px-6 bg-gradient-to-b from-[#1a0033] to-[#0b001a]">
-        <div className="container mx-auto text-center max-w-3xl">
-          <h2 className="text-4xl md:text-5xl font-weight-600 mb-6 text-white bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text">
-            Ready to Grow with Brave BPO?
-          </h2>
-          <div className="content">
-            <p className="text-lg text-gray-300 mb-4">
-              Contact Brave BPO for a consultation to customize our services for your business success.
-            </p>
-            <p className="text-lg text-gray-300 mb-4">
-              Let’s achieve your goals with our expert BPO support and innovative approaches.
-            </p>
-          </div>
-          <Link
-            href="/contact"
-            className="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition"
-          >
-            Contact Us
-          </Link>
-        </div>
-      </section>
+     
 
       {/* Footer */}
-      <footer className="bg-[#0b001a] py-8 px-6 text-center">
-        <p className="text-gray-400">© 2025 Brave BPO. All Rights Reserved.</p>
-        <div className="mt-3 space-x-4">
-          <Link href="/PrivacyPolicy" className="text-gray-400 hover:text-cyan-300">Privacy Policy</Link>
-          <Link href="/TermsAndConditions" className="text-gray-400 hover:text-cyan-300">Terms of Service</Link>
-        </div>
-      </footer>
+
 
       {/* Inline CSS */}
       <style jsx>{`

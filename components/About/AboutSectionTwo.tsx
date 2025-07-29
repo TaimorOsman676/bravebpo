@@ -30,7 +30,7 @@ const AboutSectionTwo = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="wow fadeInRight max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="text-4xl md:text-5xl font-weight-600 text-center mb-8 text-white bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text">
                   Empowering Global Brands
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -39,7 +39,7 @@ const AboutSectionTwo = () => {
               </div>
 
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="text-4xl md:text-5xl font-weight-600 text-center mb-8 text-white bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text">
                   Innovation Meets Execution
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -48,7 +48,7 @@ const AboutSectionTwo = () => {
               </div>
 
               <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="text-4xl md:text-5xl font-weight-600 text-center mb-8 text-white bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text">
                   Culture of Growth
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
