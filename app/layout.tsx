@@ -18,7 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <head />
+      <head>
+        <link rel="icon" href="/images/faviconc.png" type="image/png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Brave BPO</title>
+      </head>
       <body
         className={`bg-gradient-to-br from-[#1b002d] via-purple-700/40 to-[#1b002d] text-white ${inter.className}`}
       >

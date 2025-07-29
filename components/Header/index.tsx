@@ -107,7 +107,7 @@ const Header = () => {
         </div>
 
         {/* Right Side Buttons */}
-        <div className="hidden md:flex items-center gap-4">
+        <div className="hidden md:flex items-center gap-4 d-none">
        <p className="text-center text-base font-medium text-body-color">
   {" "}
   <a

@@ -1,11 +1,12 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer
-      className="wow fadeInUp bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white pt-16 md:pt-20 lg:pt-24  text-lg text-gray-400 "
+      className="wow fadeInUp bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white pt-16 md:pt-20 lg:pt-24 text-lg text-gray-400"
       data-wow-delay=".1s"
     >
       <div className="container">
@@ -15,7 +16,7 @@ const Footer = () => {
             <div className="mb-12 max-w-[360px] lg:mb-16">
               <Link href="/" className="mb-8 inline-block">
                 <Image
-                  src="/images/logo/logo-2.png"
+                  src="/images/faviconc.png" // Corrected path
                   alt="logo"
                   className="w-full dark:hidden"
                   width={140}
@@ -35,8 +36,22 @@ const Footer = () => {
             <div className="mb-12 lg:mb-16">
               <h2 className="mb-10 text-xl font-bold text-black dark:text-white">Useful Links</h2>
               <ul>
-                <li><Link href="/Services" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Our Services</Link></li>
-                <li><Link href="/about" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">About</Link></li>
+                <li>
+                  <Link
+                    href="/Services"
+                    className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                  >
+                    Our Services
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/about"
+                    className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                  >
+                    About
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -46,8 +61,22 @@ const Footer = () => {
             <div className="mb-12 lg:mb-16">
               <h2 className="mb-10 text-xl font-bold text-black dark:text-white">Legal</h2>
               <ul>
-                <li><Link href="/ResourceAugmentation" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Resource Augmentation</Link></li>
-                <li><Link href="/PrivacyPolicy" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Privacy Policy</Link></li>
+                <li>
+                  <Link
+                    href="/ResourceAugmentation"
+                    className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                  >
+                    Resource Augmentation
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/PrivacyPolicy"
+                    className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                  >
+                    Privacy Policy
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -57,7 +86,22 @@ const Footer = () => {
             <div className="mb-12 lg:mb-16">
               <h2 className="mb-10 text-xl font-bold text-black dark:text-white">Support</h2>
               <ul>
-                <li><Link href="/contact" className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary">Contact Support</Link></li>
+                <li>
+                  <Link
+                    href="/contact"
+                    className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                  >
+                    Contact Support
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/about"
+                    className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
+                  >
+                    About
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -70,8 +114,13 @@ const Footer = () => {
         <div className="py-8">
           <p className="text-center text-base text-body-color dark:text-white">
             © 2025 Brave BPO Services. All rights reserved. |
-            <Link href="/PrivacyPolicy" className="ml-2 hover:text-primary duration-300">Privacy Policy</Link> |
-            <Link href="/TermsAndConditions" className="ml-2 hover:text-primary duration-300">Terms & Conditions</Link>
+            <Link href="/PrivacyPolicy" className="ml-2 hover:text-primary duration-300">
+              Privacy Policy
+            </Link>
+            |
+            <Link href="/TermsAndConditions" className="ml-2 hover:text-primary duration-300">
+              Terms & Conditions
+            </Link>
           </p>
         </div>
       </div>
