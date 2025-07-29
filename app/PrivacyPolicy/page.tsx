@@ -41,7 +41,8 @@ const PrivacyPolicy = () => {
           <li><strong>Service:</strong> refers to this Website.</li>
           <li><strong>Service Provider:</strong> third-party processors helping operate the Service.</li>
           <li><strong>Usage Data:</strong> data collected automatically during Service use.</li>
-          <li><strong>Website:</strong> <a href="https://www.bravebpo.com" target="_blank" className="text-cyan-400 hover:underline">bravebpo.com</a></li>
+          <li><strong>Website:</strong> <a href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank">
+</a></li>
           <li><strong>You:</strong> the user or entity using the Service.</li>
         </ul>
 
