@@ -53,8 +53,20 @@ const PrivacyPolicy = () => {
           <ul className="list-disc pl-6 space-y-1 text-gray-300">
             <li>Email: <a href="mailto:info@bravebpo.com" className="text-cyan-400 hover:underline">info@bravebpo.com</a></li>
             <li>Phone: <a href="tel:+92515120147" className="text-cyan-400 hover:underline">+92 51 5120147</a></li>
-            <li>Website: <a href="https://www.bravebpo.com/contact" className="text-cyan-400 hover:underline" target="_blank">https://www.bravebpo.com/contact</a></li>
+
+            <li>
+  <a
+    href="https://www.bravebpo.com/contact"
+    className="text-cyan-400 hover:underline"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Contact Brave BPO
+  </a>
+</li>
+
           </ul>
+          
         </div>
       </div>
     </section>
