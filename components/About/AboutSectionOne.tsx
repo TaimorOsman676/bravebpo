@@ -60,6 +60,30 @@ const services = [
 const OurServicesSection = () => {
   return (
     <>
+       <section id="ceo-message" className="py-24 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="grid md:grid-cols-2 items-center gap-10">
+            <div className="overflow-hidden rounded-3xl border-4 border-primary shadow-xl">
+              <Image
+                src="/images/Team/imran-khans.jpg"
+                alt="CEO Image"
+                width={600}
+                height={500}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div>
+              <h3 className="text-3xl text-4xl md:text-5xl mb-6 font-weight-600 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
+                <span className="text-sky-400">Imran Khan Sadri</span>{" "} <br />
+                <span className="text-white dark:text-white text-xl">(CEO Brave BPO)</span>
+              </h3>
+              <p className="text-lg    mb-3 group-hover:scale-110 transition-transform">
+                At Brave BPO, we believe that great service begins with people. Over the last two decades, we’ve grown from humble beginnings into a trusted outsourcing partner for clients across the globe. Our success is rooted in authenticity, compassion, and innovation. We take pride in building long-term relationships, nurturing talent, and delivering solutions that truly matter. As CEO, I feel honored to lead a team that is driven by purpose and passion. Together, we are not just supporting businesses—we're shaping a future where collaboration, technology, and human connection redefine what outsourcing means.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
  <section className="py-28 px-5 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white">
       <div className="max-w-6xl mx-auto text-center">
     
@@ -114,30 +138,7 @@ const OurServicesSection = () => {
         </div>
       </div>
     </section>
-        <section id="ceo-message" className="py-24 bg-gradient-to-b from-[#0b001a] via-[#14002b] to-[#0b001a] text-white">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="grid md:grid-cols-2 items-center gap-10">
-            <div className="overflow-hidden rounded-3xl border-4 border-primary shadow-xl">
-              <Image
-                src="/images/Team/imran-khans.jpg"
-                alt="CEO Image"
-                width={600}
-                height={500}
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <div>
-              <h3 className="text-3xl text-4xl md:text-5xl mb-6 font-weight-600 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
-                <span className="text-sky-400">Imran Khan Sadri</span>{" "} <br />
-                <span className="text-white dark:text-white text-xl">(CEO Brave BPO)</span>
-              </h3>
-              <p className="text-lg    mb-3 group-hover:scale-110 transition-transform">
-                At Brave BPO, we believe that great service begins with people. Over the last two decades, we’ve grown from humble beginnings into a trusted outsourcing partner for clients across the globe. Our success is rooted in authenticity, compassion, and innovation. We take pride in building long-term relationships, nurturing talent, and delivering solutions that truly matter. As CEO, I feel honored to lead a team that is driven by purpose and passion. Together, we are not just supporting businesses—we're shaping a future where collaboration, technology, and human connection redefine what outsourcing means.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
   
     </>
   );
