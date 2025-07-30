@@ -248,7 +248,7 @@ const OurServicesSection = () => {
         <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3 text-left">
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
             <FaSearch className="text-3xl text-primary mb-4" />
-            <h4 className="text-xl font-semibold mb-2 ">Search Engine Optimization</h4>
+            <h4 className="text-4xl md:text-5xl to-pink-500  bg-clip-text mb-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text ">Search Engine Optimization</h4>
             <p className="text-gray-300">Improve search rankings, drive organic traffic, and boost brand credibility.</p>
           </div>
 
