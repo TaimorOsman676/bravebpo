@@ -79,11 +79,11 @@ const teamMembers = [
     title: "Project Manager – Brave BPO",
     image: "/images/Team/taimor-ahmad.jpg",
   },
-  {
-    name: "Mr. Liaquat Khan",
-    title: "Compliance Executive – Brave BPO",
-    image: "/images/Team/liaquat-khan.jpg",
-  },
+  // {
+  //   name: "Mr. Liaquat Khan",
+  //   title: "Compliance Executive – Brave BPO",
+  //   image: "/images/Team/liaquat-khan.jpg",
+  // },
   {
     name: "Mr. Bilawal Sajjad",
     title: "Information Technology Manager – Brave BPO",
