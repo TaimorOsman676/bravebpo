@@ -1,0 +1,198 @@
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to bottom, #0b001a, #14002b, #0b001a);
+  color: #fff;
+  padding: 4rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  min-width: 1100px;
+  min-height: 600px;
+  max-height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.panels {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.panel {
+  height: 270px;
+  width: 190px;
+  position: relative;
+}
+
+.panel:hover .card {
+  filter: blur(1.5px);
+}
+
+.panel:hover .card1 {
+  background-size: 215% 135%;
+}
+
+.panel:hover .card2 {
+  background-size: 115% 115%;
+}
+
+.panel:hover .card3 {
+  background-size: 155% 115%;
+}
+
+.panel:hover .title {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.panel:hover .border {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.panel:hover .slide {
+  bottom: 0;
+}
+
+.panel:hover .ringBefore,
+.panel:hover .ringAfter {
+  transform: translateX(-50%) translateY(-50%) rotate(310deg);
+}
+
+.ring,
+.card,
+.border,
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring {
+  color: #fffbf1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 170px;
+  z-index: 10; /* Daira ko image ke upar rakhein */
+}
+
+.card {
+  background: #f0ead6;
+  position: relative;
+  transition: all 1s;
+  height: 270px;
+  width: 190px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  overflow: hidden;
+  position: relative;
+  z-index: 1; /* Image ko front mein rakhein */
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 1s;
+  z-index: 2; /* Image ko sab se upar rakhein */
+}
+
+.card1 {
+  background-image: none;
+}
+
+.card2 {
+  background-image: none;
+}
+
+.card3 {
+  background-image: none;
+}
+
+.ringBefore {
+  content: "";
+  padding: 0.7em 0.4em;
+  position: absolute;
+  left: 50%;
+  width: 115%;
+  top: 50%;
+  display: block;
+  border: 5px solid #50c9c3;
+  border-radius: 50%;
+  transition: transform 1s;
+  transform: translateX(-50%) translateY(-50%) rotate(50deg);
+  border-color: rgb(235, 235, 235) rgb(235, 235, 235) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: 5; /* Daira ko image ke upar rakhein */
+}
+
+.ringAfter {
+  content: "";
+  padding: 0.7em 0.4em;
+  position: absolute;
+  left: 50%;
+  width: 115%;
+  top: 50%;
+  display: block;
+  border: 5px solid #50c9c3;
+  border-radius: 50%;
+  transition: transform 1s;
+  transform: translateX(-50%) translateY(-50%) rotate(50deg);
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(235, 235, 235) rgb(235, 235, 235);
+  z-index: 5; /* Daira ko image ke upar rakhein */
+}
+
+.title {
+color:red;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 1s;
+  position: absolute;
+  bottom: 10px; /* Name ko image ke bottom mein rakhein */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  z-index: 1; /* Name ko image ke upar rakhein */
+}
+
+.para {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.border {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  height: 260px;
+  width: 180px;
+  transition: border 1s;
+  overflow: hidden;
+  z-index: 2; /* Border ko image ke neeche rakhein */
+}
+
+.slide {
+  height: 260px;
+  width: 180px;
+  position: absolute;
+  border: 1px solid black;
+  bottom: -270px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: bottom 1s;
+  flex-direction: column;
+  z-index: 4; /* Slide ko hover par upar aane dein */
+}

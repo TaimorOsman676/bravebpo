@@ -114,6 +114,11 @@ const teamMembers = [
     title: "IT Support – Brave BPO 1.0",
     image: "/images/Team/ali-asghar.jpeg",
   },
+   {
+    name: "Muhammad Arman",
+    title: "IT Support – Brave BPO 1.0",
+    image: "/images/Team/arman.jpg",
+  },
   {
     name: "Mr. Muhammad Shakeel",
     title: "Admin & Facilities Supervisor – Brave BPO",
